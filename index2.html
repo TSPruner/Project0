@@ -3,26 +3,33 @@
     <head>
         <title>Big Ten NCAAF Standings</title>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <style>
+            @media (min-width: 500px) {
+                h1::after {
+                    content: " Conference";
+                }
+            }
+            
+            table {
+                border: 2px solid black;
+                border-collapse: collapse;
+                width: 50%;
+            }
+
+            th, td {
+                border: 1px solid black;
+                padding: 5px;
+                text-align: center;
+            }
+
+            th {
+                background-color: lightgray;
+            }
+        </style>
     </head>
     <body>
-        <h1>Big Ten Conference</h1>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-3 col-sm-6">
-                    This is a section.
-                </div>
-                <div class="col-lg-3 col-sm-6">
-                    This is another section.
-                </div>
-                <div class="col-lg-3 col-sm-6">
-                    This is a third section.
-                </div>
-                <div class="col-lg-3 col-sm-6">
-                    This is a fourth section.
-                </div>
-            </div>
-        </div>
-        <button><a href=index3.html>Switch to West Division Page</a></button> 
+        <h1>Big Ten</h1>
+        <button type="button"><a href=index3.html>Switch to West Division Page</a></button> 
         <table>
             <tr>
                 <th>East Division Standings Week 6</th>
@@ -96,6 +103,6 @@
                 <td>NR</td>
               </tr>
         </table>
-        <button><a href=index.html>Back to Conference Page</a></button> 
+        <button type="button"><a href=index.html>Back to Conference Page</a></button> 
       </body>
 </html>
