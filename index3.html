@@ -3,13 +3,41 @@
     <head>
         <title>Big Ten NCAAF Standings</title>
         <link rel="stylesheet" href="styles.css">
+        <style>
+            @media (min-width: 500px) {
+                h1::before {
+                    content: "Big Ten Conference ";
+                }
+            }
+
+            p, h1 {
+                margin: 20px;
+            }
+
+            table {
+                border: 2px solid black;
+                border-collapse: collapse;
+                width: 75%;
+                margin: 20px;
+            }
+
+            th, td {
+                border: 1px solid black;
+                padding: 5px;
+                text-align: center;
+            }
+
+            th {
+                background-color: lightgray;
+            }
+        </style>
     </head>
     <body>
         <h1>Big Ten Conference</h1>
-        <button><a href=index2.html>Switch to East Division Page</a></button> 
+        <button type="button"><a href=index2.html>Switch to East Division Page</a></button> 
         <table>
             <tr>
-                <th>West Division Standings Week 6</th>
+                <th>West Division</th>
                 <th>Conference W-L</th>
                 <th>Overall W-L</th>
                 <th>Home Games</th>
@@ -81,7 +109,7 @@
                 <td>NR</td>
               </tr>
         </table>
-        <button><a href=index4.html>Switch to Michigan Schedule</a></button> 
-        <button><a href=index.html>Back to Conference Page</a></button> 
+        <button type="button"><a href=index4.html>Switch to Michigan Schedule</a></button> 
+        <button type="button"><a href=index.html>Back to Conference Page</a></button> 
     </body>
 </html>
