@@ -1,34 +1,22 @@
 @media (min-width: 500px) {
-    h1::after {
-        content: " Conference NCAAF Teams";
+    h1::before {
+        content: "Big Ten Conference Standings ";
     }
 }
-
-h1 {
-    padding: 20px;
-    font-size: 48px;
-    background-color: blue;
-    color: white;
-}
-h2 {
+p, h1 {
     margin: 20px;
 }
-p {
-    margin: 10px;
+table {
+    border: 2px solid black;
+    border-collapse: collapse;
+    width: 75%;
+    margin: 20px;
 }
-.logos {
-    padding: 10px;
+th, td {
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
 }
-#East {
-    font-family: Arial, sans-serif;
-    font-size: 18px;
-    color: grey;
-    font-weight: bold;
+th {
+    background-color: lightgray;
 }
-#West {
-    font-family: Arial, sans-serif;
-    font-size: 18px;
-    color: blue;
-    font-weight: bold;
-}
-

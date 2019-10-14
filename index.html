@@ -2,28 +2,70 @@
 <html>
     <head>
         <title>Big Ten Conference</title>
-        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            @media (min-width: 500px) {
+                h1::after {
+                    content: " Conference NCAAF Teams";
+                }
+            }
+            h1 {
+                padding: 20px;
+                font-size: 48px;
+                background-color: blue;
+                color: white;
+            }
+            h2 {
+                margin: 20px;
+            }
+            p {
+                margin: 20px;
+            }
+            .card-body {
+                text-align: right;
+            }
+            #East {
+                font-family: Arial, sans-serif;
+                font-size: 18px;
+                color: grey;
+                font-weight: bold;
+            }
+            #West {
+                font-family: Arial, sans-serif;
+                font-size: 18px;
+                color: blue;
+                font-weight: bold;
+            }
+        </style>    
     </head>
     <body>
-        <div class="logos">      
-            <img src="logo_illinois.svg" width="35" height="35">
-            <img src="logo_indiana.svg" width="35" height="35">
-            <img src="logo_iowa.svg" width="35" height="35">
-            <img src="logo_maryland.svg" width="35" height="35">
-            <img src="logo_michigan.svg" width="35" height="35">
-            <img src="logo_michigan_state.svg" width="35" height="35">
-            <img src="logo_minnesota.svg" width="35" height="35">
-            <img src="logo_nebraska.svg" width="35" height="35">
-            <img src="logo_northwestern.svg" width="35" height="35">
-            <img src="logo_ohio_state.svg" width="35" height="35">
-            <img src="logo_penn_state.svg" width="35" height="35">
-            <img src="logo_purdue.svg" width="35" height="35">
-            <img src="logo_rutgers.svg" width="35" height="35">
-            <img src="logo_wisconsin.svg" width="35" height="35">
-        </div>
+        <div class="card mb-3" style="max-width: 1620px;">
+            <div class="row no-gutters">
+                <div class="col-xl-4">
+                    <p><img src="https://s3.amazonaws.com/bigten.org/images/btc_logo.svg" alt="BigTen" width="150" height="50"></p>
+                </div>
+                <div class="col-xl-8">
+                    <div class="card-body">
+                            <img src="logo_illinois.svg" width="35" height="35">
+                            <img src="logo_indiana.svg" width="35" height="35">
+                            <img src="logo_iowa.svg" width="35" height="35">
+                            <img src="logo_maryland.svg" width="35" height="35">
+                            <img src="logo_michigan.svg" width="35" height="35">
+                            <img src="logo_michigan_state.svg" width="35" height="35">
+                            <img src="logo_minnesota.svg" width="35" height="35">
+                            <img src="logo_nebraska.svg" width="35" height="35">
+                            <img src="logo_northwestern.svg" width="35" height="35">
+                            <img src="logo_ohio_state.svg" width="35" height="35">
+                            <img src="logo_penn_state.svg" width="35" height="35">
+                            <img src="logo_purdue.svg" width="35" height="35">
+                            <img src="logo_rutgers.svg" width="35" height="35">
+                            <img src="logo_wisconsin.svg" width="35" height="35">
+                    </div>
+                </div>
+            </div>
+        </div>    
         <h1>Big Ten</h1>
-        <p><img src="https://s3.amazonaws.com/bigten.org/images/btc_logo.svg" alt="BigTen" width="150" height="50"></p>
         <h2><a href=index2.html>East Division</a></h2> 
         <ol id="East">
             <li>Ohio State Buckeyes</li>
