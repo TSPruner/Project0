@@ -20,17 +20,16 @@ p {
     text-align: right;
 }
 
-div {
+.Conf > ol {
     font-family: Arial, sans-serif;
     font-size: 18px;
     font-weight: bold;
-    #East {
+}
+#East {
     color: grey;
 }
 #West {
-    font-family: Arial, sans-serif;
-    font-size: 18px;
     color: blue;
-    font-weight: bold;
-}
-}  
+}      
+
+

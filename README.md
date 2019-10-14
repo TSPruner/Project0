@@ -1,1 +1,11 @@
 # Project0
+Consists of 4 html pages, with index.html as the starting page. But the website can run from any of the 4 pages, since they are all linked and accessible from each other. It also includes multiple images as well as sass styles.scss file compiled and included in index2.html as well as index3.html. It takes advantage of bootstrap and mobile-responsive @media query on all pages for formatting.
+
+# index.html 
+File displays the Confernce list of teams. It includes links to index2.html as well as index3.html as titles to the East and West Divisions. It also includes a link to the Michigan team page as well as multiple images. It uses two ordered lists for the list of teams in each division. Uses stylesheet and bootstrap to format page. Stylesheet utilizes padding, color, font-size, background color, margine, text-align, font-family, and font-weight CSS properties as well as id, class, single element, multiple elements, href attribute, elements where the parent is a class element, and active link CSS selectors. It also utilizes the card bootstrap component.
+
+# index2.html and index3.html
+File uses table to display the teams in the division and their stats. Index2.html includes links as buttons to the Conference page and the West Division page. It also includes a link in the Mich title to the team's schedule pageas well as multiple images. Index3.html includes links as buttons to the Conference page, the Michigan team page, and the West Division page as well as multiple images. Both use sass stylesheet and bootstrap to format the page; utilizing a $color SCSS variable for setting the grid outline and cell text color which can be easily changed and recompiled, SCSS nesting for the table formatting such that the table has the same properties except the header border is heavier and has a different background color than the rest of the table, and SCSS inheritence for %message extended in p, h1, and table formatting so the font formatting and padding are the same for the headers, images, and table content.
+
+# index4.html
+Files uses the bootstrap grid model to display the team's schedule for this season. 
