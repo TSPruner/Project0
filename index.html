@@ -10,6 +10,7 @@
                     content: " Conference NCAAF Teams";
                 }
             }
+        
             h1 {
                 padding: 20px;
                 font-size: 48px;
@@ -25,19 +26,19 @@
             .card-body {
                 text-align: right;
             }
-            #East {
+        
+            .Conf > ol {
                 font-family: Arial, sans-serif;
                 font-size: 18px;
-                color: grey;
                 font-weight: bold;
+            }
+            #East {
+                color: grey;
             }
             #West {
-                font-family: Arial, sans-serif;
-                font-size: 18px;
                 color: blue;
-                font-weight: bold;
-            }
-        </style>    
+            }      
+        </style>
     </head>
     <body>
         <div class="card mb-3" style="max-width: 1620px;">
@@ -66,25 +67,27 @@
             </div>
         </div>    
         <h1>Big Ten</h1>
-        <h2><a href=index2.html>East Division</a></h2> 
-        <ol id="East">
-            <li>Ohio State Buckeyes</li>
-            <li>Penn State Nittany Lions</li>
-            <li><a href=index4.html>Michigan Wolverines</a></li>
-            <li>Michigan State Spartans</li>
-            <li>Indiana Hoosiers</li>
-            <li>Maryland Terrapins</li>
-            <li>Rutgers Scarlet Knights</li>
-        </ol>
-        <h2><a href=index3.html>West Division</a></h2> 
-        <ol id="West">
-            <li>Minnesota Golden Gophers</li>
-            <li>Wisconsin Badgers</li>
-            <li>Nebraska Cornhuskers</li>
-            <li>Purdue Boilermakers</li>
-            <li>Iowa Hawkeyes</li>
-            <li>Illinois Fighting Illini</li>
-            <li>Northwestern Wildcats</li>
-        </ol>
+        <div class="Conf">
+            <h2><a href=index2.html>East Division</a></h2> 
+            <ol id="East">
+                <li>Ohio State Buckeyes</li>
+                <li>Penn State Nittany Lions</li>
+                <li><a href=index4.html>Michigan Wolverines</a></li>
+                <li>Michigan State Spartans</li>
+                <li>Indiana Hoosiers</li>
+                <li>Maryland Terrapins</li>
+                <li>Rutgers Scarlet Knights</li>
+            </ol>
+            <h2><a href=index3.html>West Division</a></h2> 
+            <ol id="West">
+                <li>Minnesota Golden Gophers</li>
+                <li>Wisconsin Badgers</li>
+                <li>Nebraska Cornhuskers</li>
+                <li>Purdue Boilermakers</li>
+                <li>Iowa Hawkeyes</li>
+                <li>Illinois Fighting Illini</li>
+                <li>Northwestern Wildcats</li>
+            </ol>
+        </div>
     </body>
 </html>

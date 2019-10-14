@@ -1,0 +1,36 @@
+@media (min-width: 500px) {
+    h1::after {
+        content: " Conference NCAAF Teams";
+    }
+}
+
+h1 {
+    padding: 20px;
+    font-size: 48px;
+    background-color: blue;
+    color: white;
+}
+h2 {
+    margin: 20px;
+}
+p {
+    margin: 20px;
+}
+.card-body {
+    text-align: right;
+}
+
+div {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    #East {
+    color: grey;
+}
+#West {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    color: blue;
+    font-weight: bold;
+}
+}  
