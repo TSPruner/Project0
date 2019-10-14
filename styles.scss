@@ -1,4 +1,4 @@
-$color: solid black;
+$color: solid blue;
 %message {
     font-family: sans-serif;
     font-size: 18px;
@@ -23,7 +23,7 @@ table {
     text-align: center;
     td {
         border: 1px $color;
-
+        color: blue;
     }
     th {
         background-color: lightgray;
